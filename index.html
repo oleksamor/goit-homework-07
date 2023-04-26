@@ -42,12 +42,10 @@
               </a>
             </li>
             <li class="header-item">
-              <a class="link menu-link " href="./portfolio.html"
-                >Portfolio
-              </a>
+              <a class="link menu-link" href="./portfolio.html">Portfolio </a>
             </li>
             <li class="header-item">
-              <a class="link menu-link " href="">Contacts</a>
+              <a class="link menu-link" href="">Contacts</a>
             </li>
           </ul>
         </nav>
@@ -78,7 +76,9 @@
       <section class="hero">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
-          <button class="hero-button" type="button" data-modal-open>Order Service</button>
+          <button class="hero-button" type="button" data-modal-open>
+            Order Service
+          </button>
         </div>
       </section>
 
@@ -459,17 +459,32 @@
     </footer>
 
     <!-- /** |============================ | modal window -->
-  
+
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="modal-btn" type="button" data-modal-close>
-         <svg class="modal-icon">
-           <use href="./images/icon.svg#icon-close-modal-window"></use>
-         </svg>
-         </button>
+          <svg class="modal-icon">
+            <use href="./images/icon.svg#icon-close-modal-window"></use>
+          </svg>
+        </button>
+
+        <div class="modal-txt">
+          <strong class="modal-title"
+            >Leave your contacts and we will call you back</strong
+          >
+        </div>
+        <form class="contact-form">
+          <input type="text" class="contact-form-input" />
+          <input type="text" class="contact-form-input" />
+          <input type="text" class="contact-form-input" />
+
+          <div class="contact-form-btn-wrapper">
+            <button class="contact-form-btn">Send</button>
+          </div>
+        </form>
       </div>
     </div>
-  
-  <script src="./js/modal.js"></script>
-</body>
-</html> 
+
+    <script src="./js/modal.js"></script>
+  </body>
+</html>
