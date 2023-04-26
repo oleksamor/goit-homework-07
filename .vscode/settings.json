@@ -1,0 +1,16 @@
+{
+  "editor.cursorStyle": "line",
+  "editor.fontSize": 18,
+  "files.autoSave": "afterDelay",
+  "editor.glyphMargin": true,
+  "editor.renderLineHighlight": "line",
+  "editor.renderLineHighlightOnlyWhenFocus": false,
+  "editor.cursorBlinking": "blink",
+  "editor.guides.bracketPairs": "active",
+  "editor.guides.highlightActiveIndentation": true,
+  "workbench.tree.renderIndentGuides": "none",
+  "editor.formatOnType": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "liveServer.settings.port": 5501
+}
