@@ -673,10 +673,35 @@ body {
 
 }
 
-.contact-form-btn-wrapper{
-    display: flex;
-    justify-content: center;
+.contact-form-message {
+  width: 100%;
+  height: 120px;
+  padding: 15px;
+  margin-bottom: 16px;
+  resize: none;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
 }
+.accept-police {
+  display: flex;
+  margin-bottom: 24px;
+}
+.police {
+  font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: var(--subtle-text-color);
+}
+.color-police {
+  text-decoration-line: underline;
+  color: var(--primary-brand-color);
+}
+
+.contact-form-btn-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
 .contact-form-btn {
   width: 169px;
   height: 56px;
@@ -690,8 +715,9 @@ body {
   letter-spacing: 0.04em;
   color: var(--white-background);
   cursor: pointer;
-  transition: background-color 250ms var(--timing-function) ;
+  transition: background-color 250ms var(--timing-function);
 }
+
 .contact-form-btn:hover,
 .contact-form-btn:focus {
   background-color: var(--pressed-state-color);
