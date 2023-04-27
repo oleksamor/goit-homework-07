@@ -460,7 +460,7 @@
 
     <!-- /** |============================ | modal window -->
 
-    <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop" data-modal>
       <div class="modal">
         <button class="modal-btn" type="button" data-modal-close>
           <svg class="modal-icon">
@@ -475,52 +475,52 @@
         </div>
 
         <form class="contact-form">
-          <div role="group" aria-labelledby="">
-              <label for="name_user">Name</label>
-              <input
-                type="text"
-                class="contact-form-input"
-                id="name_user"
-                placeholder="Your name"
-                name="user_name"
-              />
-              <label for="phone_user">Phone</label>
-              <input
-                type="tel"
-                class="contact-form-input"
-                id="phone_user"
-                placeholder="Your phone number"
-                name="user_phone"
-              />
-              <label for="email_user">Email</label>
-              <input
-                type="email"
-                class="contact-form-input"
-                id="email_user"
-                placeholder="Your email"
-                name="user_email"
-              />
-              <label for="comment_txt">Comment</label>
-              <textarea
-                name=""
-                class="contact-form-message"
-                id="comment_txt"
-                placeholder="Text input"
-              >
-              </textarea>
+          <div class="contact-form-wrapper">
+            <label for="name_user">Name</label>
+            <input
+              type="text"
+              class="contact-form-input"
+              id="name_user"
+              placeholder="Your name"
+              name="user_name"
+            />
+            <label for="phone_user">Phone</label>
+            <input
+              type="tel"
+              class="contact-form-input"
+              id="phone_user"
+              placeholder="Your phone number"
+              name="user_phone"
+            />
+            <label for="email_user">Email</label>
+            <input
+              type="email"
+              class="contact-form-input"
+              id="email_user"
+              placeholder="Your email"
+              name="user_email"
+            />
+            <label for="comment_txt">Comment</label>
+            <textarea
+              name=""
+              class="contact-form-message"
+              id="comment_txt"
+              placeholder="Text input"
+            >
+            </textarea>
           </div>
-          
+
           <div class="accept-police">
-            <label>
-              <input
-                type="checkbox"
-                name="accept_police"
-                class="checkbox-police"
-              />
-              <p class="police">
-                I accept the terms and conditions of the <a href="#"></a>
-                <span class="color-police"> Privacy Policy</span>
-              </p>
+            <!-- <input
+              type="checkbox"
+              name="accept_police"
+              class="checkbox-police"
+            /> -->
+            <input id="user-police" type="text" class="modal-form-check" />
+            
+            <label for="user-police" class="modal-form-check-descr"
+              >I accept the terms and conditions of the <a href="#"></a>
+              <span class="color-police"> Privacy Policy</span>
             </label>
           </div>
           <div class="contact-form-btn-wrapper">

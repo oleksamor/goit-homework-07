@@ -654,6 +654,7 @@ body {
 
 .modal-txt {
   text-align: center;
+  margin-bottom: 16px;
 }
 
 .modal-title {
@@ -663,14 +664,20 @@ body {
   color: var(--dark-color);
 }
 
+.contact-form-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+}
+
 .contact-form-input {
   width: 100%;
   height: 40px;
-  margin-bottom: 8px;
   padding-left: 16px;
   border: 1px solid var(--primary-brand-color);
   border-radius: 4px;
-
 }
 
 .contact-form-message {
@@ -682,16 +689,29 @@ body {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
 }
+
 .accept-police {
   display: flex;
   margin-bottom: 24px;
 }
+
+.checkbox-police {
+  width: 16px;
+  height: 16px;
+}
+
+.modal-form-check {
+  width: 16px;
+  height: 16px;
+}
+
 .police {
   font-size: 12px;
-    line-height: 1.17;
-    letter-spacing: 0.04em;
-    color: var(--subtle-text-color);
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: var(--subtle-text-color);
 }
+
 .color-police {
   text-decoration-line: underline;
   color: var(--primary-brand-color);
