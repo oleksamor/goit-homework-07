@@ -654,7 +654,7 @@ body {
 
 .modal-txt {
   text-align: center;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .modal-title {
@@ -667,9 +667,7 @@ body {
 .contact-form-wrapper {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   padding: 0px;
-  gap: 8px;
 }
 
 .field-input {
@@ -681,7 +679,8 @@ body {
   top: 50%;
   left: 16px;
   transform: translateY(-50%);
-transition: 250ms var(--timing-function);
+  transition: 250ms var(--timing-function);
+  pointer-events: none;
 }
 
 .modal-form-input {
@@ -699,10 +698,22 @@ transition: 250ms var(--timing-function);
   outline-color: var(--primary-brand-color);
   transition: 250ms var(--timing-function);
 }
-.modal-form-input:focus + .modal-form-icon {
+
+.modal-form-input:focus+.modal-form-icon {
   fill: var(--primary-brand-color);
   transition: 250ms var(--timing-function);
 }
+
+.modal-form-label {
+  display: block;
+  margin: 8px 0 4px 0;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
+  transition: 250ms var(--timing-function);
+}
+
 .contact-form-message {
   width: 100%;
   height: 120px;
@@ -711,7 +722,7 @@ transition: 250ms var(--timing-function);
   resize: none;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
-  
+
 }
 
 .accept-police {
