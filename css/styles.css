@@ -715,14 +715,29 @@ body {
 }
 
 .contact-form-message {
+  display: block;
   width: 100%;
-  height: 120px;
-  padding: 15px;
+  min-height: 120px;
+  padding: 10px;
   margin-bottom: 16px;
   resize: none;
-  border: 1px solid rgba(46, 47, 66, 0.4);
+  border: 1px solid var(--primary-brand-color);
   border-radius: 4px;
+  outline: 2px solid transparent;
+  outline-offset: -2px;
+  transition: 250ms var(--timing-function);
+}
 
+.contact-form-message::placeholder {
+  font-size: 12px;
+  line-height: 1.17x;
+  letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
+}
+
+.contact-form-message:focus {
+  outline-color: var(--primary-brand-color);
+  transition: 250ms var(--timing-function);
 }
 
 .accept-police {
@@ -733,8 +748,14 @@ body {
 }
 
 .checkbox-police {
+  appearance: none;
   width: 16px;
   height: 16px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 2px;
+  outline: 2px solid transparent;
+  outline-offset: -2px;
+  transition: 250ms var(--timing-function);
 }
 
 .modal-form-check {
@@ -743,13 +764,17 @@ body {
 }
 
 .modal-form-check-descr {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 24px;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: var(--subtle-text-color);
 }
 
-.color-police {
+.modal-link-policy {
   text-decoration-line: underline;
   color: var(--primary-brand-color);
 }
@@ -759,7 +784,9 @@ body {
   justify-content: center;
 }
 
-.contact-form-btn {
+.modal-send-btn {
+  display: block;
+  margin: 0 auto;
   width: 169px;
   height: 56px;
   padding: 16px 32px;
@@ -775,7 +802,7 @@ body {
   transition: background-color 250ms var(--timing-function);
 }
 
-.contact-form-btn:hover,
-.contact-form-btn:focus {
+.modal-send-btn:hover,
+.modal-send-btn:focus {
   background-color: var(--pressed-state-color);
 }
