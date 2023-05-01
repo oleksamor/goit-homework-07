@@ -578,6 +578,72 @@ body {
 
 }
 
+/* Subscribe form */
+.footer-email-input {
+  margin-left: 80px;
+
+}
+
+.footer-email-input-txt {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--white-background);
+}
+
+.footer-email-input-form {}
+
+.footer-email-input-wrapper {
+  display: flex;
+}
+
+.footer-email-input-field {
+  position: relative;
+}
+
+.email-input-field {
+  background-color: transparent;
+  width: 264px;
+  height: 40px;
+color: var(--white-background);
+  border: 1px solid var(--white-background);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  margin-right: 24px;
+}
+
+.email-input-field::placeholder {
+color: var(--white-background);
+opacity: 1;
+
+}
+.email-field-txt {
+  position: absolute;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: var(--white-background);
+}
+
+.subscribe-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 24px;
+  gap: 16px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--white-background);
+  /* position: absolute; */
+  background: #4D5AE5;
+  border: none;
+  border-radius: 4px;
+}
+
+.subscribe-btn-icon {}
+
 /**
   |============================
   | modal styles
@@ -604,7 +670,7 @@ body {
 
 .backdrop.is-hidden.modal {
   transform: translate(-50%, -50%) scaleY(0);
-  /* transition: deley 400ms; */
+  transition: deley 400ms;
 }
 
 .modal {
