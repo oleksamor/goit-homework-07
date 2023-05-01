@@ -780,7 +780,7 @@ body {
   transition: 250ms var(--timing-function);
 }
 
-input [type="checkbox"]:checked+.modal-form-agreement-icon>.modal-form-agreement-unchecked {
+.modal-form-agreement-box:checked+.modal-form-agreement-icon>.modal-form-agreement-unchecked {
   opacity: 0;
 }
 
@@ -789,13 +789,9 @@ input [type="checkbox"]:checked+.modal-form-agreement-icon>.modal-form-agreement
   transition: 250ms var(--timing-function);
 }
 
-input [type="checkbox"]:checked+.modal-form-agreement-icon>.modal-form-agreement-checked {
+.modal-form-agreement-box:checked+.modal-form-agreement-icon>.modal-form-agreement-checked {
   opacity: 1;
 }
-
-
-
-
 
 .modal-link-policy {
   text-decoration-line: underline;
