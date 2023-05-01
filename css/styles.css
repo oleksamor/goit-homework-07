@@ -589,6 +589,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--white-background);
+  margin-bottom: 16px;
 }
 
 .footer-email-input-form {}
@@ -605,7 +606,8 @@ body {
   background-color: transparent;
   width: 264px;
   height: 40px;
-color: var(--white-background);
+  padding-left: 16px;
+  color: var(--white-background);
   border: 1px solid var(--white-background);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
@@ -613,17 +615,14 @@ color: var(--white-background);
 }
 
 .email-input-field::placeholder {
-color: var(--white-background);
-opacity: 1;
-
-}
-.email-field-txt {
-  position: absolute;
+  color: var(--white-background);
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
-  color: var(--white-background);
+  opacity: 1;
+
 }
+
 
 .subscribe-btn {
   display: flex;
