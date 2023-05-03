@@ -644,6 +644,7 @@ body {
   transition: 250ms var(--timing-function);
   cursor: pointer;
 }
+
 /**
   |============================
   | modal styles
@@ -689,6 +690,9 @@ body {
 }
 
 .modal-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: absolute;
   top: 24px;
   right: 24px;
@@ -749,21 +753,22 @@ body {
   width: 100%;
   height: 40px;
   padding-left: 38px;
-  border: 1px solid rgba(46, 47, 66, 0.4);;
+  border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
-  outline: 2px solid transparent;
+  outline: 1px solid transparent;
   outline-offset: -2px;
+  transition: 250ms var(--timing-function);
 
 }
 
 .modal-form-input:focus {
   outline-color: var(--primary-brand-color);
-  transition: 250ms var(--timing-function);
+  border: transparent;
 }
 
 .modal-form-input:focus+.modal-form-icon {
   fill: var(--primary-brand-color);
-  transition: 250ms var(--timing-function);
+
 }
 
 .modal-form-label {
@@ -785,7 +790,7 @@ body {
   resize: none;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
-  outline: 2px solid transparent;
+  outline: 1px solid transparent;
   outline-offset: -2px;
   transition: 250ms var(--timing-function);
 }
@@ -799,7 +804,7 @@ body {
 
 .contact-form-message:focus {
   outline-color: var(--primary-brand-color);
-  transition: 250ms var(--timing-function);
+  border: transparent;
 }
 
 .accept-police {
@@ -813,6 +818,7 @@ body {
   width: 16px;
   height: 16px;
 }
+
 /* ======= agreement ======== */
 .modal-form-agreement {
   display: flex;
