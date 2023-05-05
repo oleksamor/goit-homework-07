@@ -1,0 +1,18 @@
+@media screen and (min-width: 1158px) {
+    .container {
+        width: 1158px;
+    }
+
+    /* hero */
+    .hero {
+        padding: 188px 0;
+        max-width: 1440px;
+        height: 600px;
+    }
+
+    .hero-title {
+        max-width: 1158px;
+    }
+
+    
+}

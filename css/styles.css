@@ -49,13 +49,6 @@ body {
   letter-spacing: 0.02em;
 }
 
-.container {
-  width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 .main-nav {
   display: flex;
@@ -150,53 +143,11 @@ body {
   | Hero
   |============================
 */
-.hero {
-  background-color: var(--dark-color);
-  text-align: center;
-  padding: 188px 0;
-  max-width: 1440px;
-  height: 600px;
-  margin-left: auto;
-  margin-right: auto;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)),
-    url(../images/hero.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
 
-.hero-title {
-  font-size: 56px;
-  line-height: 1.07;
-  letter-spacing: 0.02em;
-  color: var(--white-background);
-  max-width: 496px;
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 48px;
-}
 
-.hero-button {
-  font-family: var(--primary-font), sans-serif;
-  font-weight: 500;
-  min-width: 169px;
-  height: 56px;
-  background-color: var(--primary-brand-color);
-  color: var(--white-background);
-  letter-spacing: 0.04em;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  line-height: 1.5;
-  border: none;
-  cursor: pointer;
-  transition: background-color 250ms var(--timing-function);
-}
 
-.hero-button:hover,
-.hero-button:focus {
-  background-color: var(--pressed-state-color);
-}
+
+
 
 /**
   |============================
