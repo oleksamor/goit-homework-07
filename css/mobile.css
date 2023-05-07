@@ -5,6 +5,7 @@
     padding-right: 16px;
     margin-left: auto;
     margin-right: auto;
+    outline: 2px solid red;
 }
 
 /* hero */
@@ -128,7 +129,17 @@
     color: var(--text-color);
 }
 
+  /* action */
 
+  .action {
+    display: none;
+      padding-bottom: 120px;
+  }
+
+  .action-list {
+      display: flex;
+      gap: 24px;
+  }
 
 @media screen and (min-width: 428px) {
     .container {
@@ -137,7 +148,7 @@
     /* hero */
 }
  /* feature */
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 767px) {
  .item-subtitle {
      font-size: 36px;
      line-height: 1.11;
