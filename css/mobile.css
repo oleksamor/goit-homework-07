@@ -1,8 +1,8 @@
 .container {
+    min-width: 320px;
     width: 100%;
-    padding-left: 15px;
-    padding-right: 15px;
-    outline: 1px solid red;
+    padding-left: 16px;
+    padding-right: 16px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -23,6 +23,7 @@
     background-position: center;
     background-size: cover;
 }
+
 .hero-title {
     font-size: 36px;
     line-height: 1.11;
@@ -55,10 +56,91 @@
     background-color: var(--pressed-state-color);
 }
 
+/**
+  |============================
+  | Feature
+  |============================
+*/
+.feature {
+    padding: 96px 0;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.item {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+
+.feature-icon {
+    width: 64px;
+    height: 64px;
+    fill: var(--dark-color);
+}
+
+.feature-bgr-icon {
+    display: flex;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+    height: 112px;
+    background: var(--modal-overlay-color);
+    border-radius: 4px;
+}
+
+  .item-subtitle {
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 1.2;
+      letter-spacing: 0.02em;
+      color: var(--dark-color);
+      margin-bottom: 8px;
+  }
+
+.item-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--dark-color);
+    margin-bottom: 72px;
+}
+
+.item-txt {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}
+
+
+
 @media screen and (min-width: 428px) {
     .container {
         width: 428px;
     }
-
     /* hero */
+}
+ /* feature */
+@media screen and (max-width: 428px) {
+ .item-subtitle {
+     font-size: 36px;
+     line-height: 1.11;
+     text-align: center;
+ }
 }

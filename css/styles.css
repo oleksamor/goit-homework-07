@@ -154,47 +154,11 @@ body {
   | Feature
   |============================
 */
-.feature {
-  padding: 120px 0;
-}
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
 
-.item {
-  display: flex;
-  gap: 24px;
-}
 
-.feature-item {
-  width: calc((100% - 3 * 24px) / 4);
-}
 
-.feature-icon {
-  width: 64px;
-  height: 64px;
-  fill: var(--dark-color);
-}
 
-.feature-bgr-icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 8px;
-  height: 112px;
-  background: var(--modal-overlay-color);
-  border-radius: 4px;
-}
 
 /**
   |============================
@@ -202,15 +166,7 @@ body {
   |============================
 */
 
-.item-title {
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: var(--dark-color);
-  margin-bottom: 72px;
-}
+
 
 .action {
   padding-bottom: 120px;
@@ -352,30 +308,6 @@ body {
 .svg-link:focus {
   fill: var(--pressed-state-color);
 }
-
-/* ====== thumba ========= */
-
-.item-subtitle {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--dark-color);
-  margin-bottom: 8px;
-}
-
-.item-txt {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--text-color);
-}
-
-/**
-  |============================
-  | portfolio
-  |============================
-*/
 
 /**
   |============================

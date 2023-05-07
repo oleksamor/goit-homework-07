@@ -8,9 +8,24 @@
         max-width: 768px;
         height: 436px;
     }
-        .hero-title {
-            font-size: 56px;
-            line-height: 1.07;
-            max-width: 768px;
-        }
+
+    .hero-title {
+        font-size: 56px;
+        line-height: 1.07;
+        max-width: 768px;
+    }
+
+    /* feature */
+    .feature {
+        padding: 120px 0;
+    }
+
+}
+
+@media screen and (min-width: 429px) {
+    .item-subtitle {
+        font-size: 36px;
+        line-height: 1.11;
+        text-align: start;
+    }
 }
