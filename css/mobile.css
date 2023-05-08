@@ -108,7 +108,7 @@
 }
 
 .mobile-contacts {
-    margin-bottom: 24px;
+    margin-bottom: 48px;
 }
 
 .mobile-contacts-tel {
@@ -126,6 +126,14 @@
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #434455;
+}
+
+.footer-container-socmedia {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
 }
 
 /* hero */
