@@ -1,6 +1,7 @@
 @media screen and (min-width: 768px) {
     .container {
         width: 768px;
+        padding: 96px 108px;
     }
 
     /* hero */
@@ -25,10 +26,3 @@
     }
 }
 
-@media screen and (min-width: 768px) {
-    .item-subtitle {
-        font-size: 36px;
-        line-height: 1.11;
-        text-align: start;
-    }
-}
