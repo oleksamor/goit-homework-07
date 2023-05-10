@@ -174,7 +174,7 @@ body {
   |============================
   | Customers
   |============================
-*/
+
 .customers {
   text-align: center;
   padding-top: 120px;
@@ -213,13 +213,13 @@ body {
 }
 
 .svg-link {
-  /* width: 104px;
-  height: 56px; */
+  width: 104px;
+  height: 56px; 
   fill: currentColor;
   transition: fill 250ms var(--timing-function);
 }
 
-/* .customers-icon {} */
+
 
 .customers-link:hover,
 .customers-link:focus {
@@ -231,7 +231,7 @@ body {
 .svg-link:focus {
   fill: var(--pressed-state-color);
 }
-
+*/
 /**
   |============================
   | thumba
