@@ -265,7 +265,7 @@
     gap: 24px;
 }
 
-@media screen and (max-width: 1158px) {
+@media screen and (max-width: 1157px) {
     .action-list {
         flex-wrap: wrap;
     }
@@ -460,7 +460,7 @@
     margin-right: 120px;
 } */
 
-@media screen and (max-width: 1158px) {
+@media screen and (max-width: 1157px) {
     .logo-text {
         margin-bottom: 72px;
     }

@@ -1,6 +1,6 @@
 @media screen and (min-width: 1158px) {
     .container {
-        width: 1158px;
+        width: 100% ;
         padding: 100px 156px;
     }
 
@@ -14,8 +14,6 @@
     .hero-title {
         max-width: 1158px;
     }
-
-
     /**
       |============================
       | Feature
@@ -177,18 +175,10 @@
     .footer-email-input-field {
         position: relative;
     }
-
+/* 
     .email-input-field {
-        background-color: transparent;
-        width: 264px;
-        height: 40px;
-        padding-left: 16px;
-        color: var(--white-background);
-        border: 1px solid var(--white-background);
-        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-        border-radius: 4px;
         margin-right: 24px;
-        transition: 250ms var(--timing-function);
+        */
     }
 
     .email-input-field::placeholder {

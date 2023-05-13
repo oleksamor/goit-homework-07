@@ -32,13 +32,7 @@
     /* ====== footer ===*/
 
 
-    .footer-box {
-        flex-wrap: wrap;
-    }
 
-    .footer-soc-media {
-        margin-left: 24px;
-    }
 
     .footer-email-input-form {
         display: flex;
@@ -48,6 +42,14 @@
     .subscribe-btn {
         margin-left: 24px;
     }
+}
 
+@media screen and (min-width: 768px) and (max-width: 1157px) {
+    .footer-soc-media {
+        margin-left: 24px;
+    }
 
+    .footer-box {
+        flex-wrap: wrap;
+    }
 }
