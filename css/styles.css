@@ -231,7 +231,7 @@ body {
 .svg-link:focus {
   fill: var(--pressed-state-color);
 }
-*/
+
 /**
   |============================
   | thumba
@@ -334,7 +334,7 @@ body {
   | footer
   |============================
 */
-.logo-text {
+/* .logo-text {
   margin-right: 120px;
 }
 
@@ -357,13 +357,13 @@ body {
 .footer-text {
   max-width: 264px;
   color: var(--accent-color);
-}
+} */
 
 /* .footer-soc-media {
   margin-left: 120px;
 } */
 
-.footer-socmedia-text {
+/* .footer-socmedia-text {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -382,10 +382,10 @@ body {
   width: 40px;
   height: 40px;
 
-}
+} */
 
 /* Subscribe form */
-.footer-email-input {
+/* .footer-email-input {
   margin-left: 80px;
 
 }
@@ -449,7 +449,7 @@ body {
   border-radius: 4px;
   transition: 250ms var(--timing-function);
   cursor: pointer;
-}
+} */
 
 /**
   |============================

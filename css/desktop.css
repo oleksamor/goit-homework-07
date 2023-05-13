@@ -71,7 +71,7 @@
       |============================
     */
 
-/* 
+    /* 
     .team-card {
         background-color: var(--white-background);
         border-radius: 0px 0px 4px 4px;
@@ -120,6 +120,131 @@
         background-color: var(--success-color);
     }
 
+    .customers-item {
+        width: calc((100% - 5 * 24px) / 6);
+    }
+
+/**
+  |============================
+  | footer
+  |============================
+*/
+.logo-text {
+    margin-right: 120px;
+}
+
+.footer-content {
+    background-color: var(--dark-color);
+    padding: 100px 0;
+}
+
+.footer-link {
+    display: inline-block;
+    margin-bottom: 16px;
+    margin-right: 0;
+}
+
+.footer-box {
+    display: flex;
+    align-items: baseline;
+}
+
+.footer-text {
+    max-width: 264px;
+    color: var(--accent-color);
+}
+
+/* .footer-soc-media {
+  margin-left: 120px;
+} */
+
+.footer-socmedia-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--white-background);
+    margin-bottom: 16px;
+
+}
+
+.footer-container-socmedia {
+    display: flex;
+    gap: 16px;
+}
+
+.footer-socmedia {
+    width: 40px;
+    height: 40px;
+
+}
+
+/* Subscribe form */
+.footer-email-input {
+    margin-left: 80px;
+
+}
+
+.footer-email-input-txt {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--white-background);
+    margin-bottom: 16px;
+}
+
+.footer-email-input-form {
+    display: flex;
+}
+
+.footer-email-input-field {
+    position: relative;
+}
+
+.email-input-field {
+    background-color: transparent;
+    width: 264px;
+    height: 40px;
+    padding-left: 16px;
+    color: var(--white-background);
+    border: 1px solid var(--white-background);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    margin-right: 24px;
+    transition: 250ms var(--timing-function);
+}
+
+.email-input-field::placeholder {
+    color: var(--white-background);
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    opacity: 1;
+
+}
+
+
+.subscribe-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 24px;
+    gap: 16px;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--white-background);
+    /* position: absolute; */
+    background: #4D5AE5;
+    border: none;
+    border-radius: 4px;
+    transition: 250ms var(--timing-function);
+    cursor: pointer;
+}
 
 
 
@@ -127,5 +252,4 @@
 
 
 
-    
 }
