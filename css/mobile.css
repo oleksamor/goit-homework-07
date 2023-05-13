@@ -454,18 +454,29 @@
 }
 
 
-/**
-  |============================
-  | footer
-  |============================
-*/
-.logo-text {
+/* ====== footer ===*/
+
+/* .logo-text {
     margin-right: 120px;
+} */
+
+@media screen and (max-width: 1158px) {
+    .logo-text {
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 72px;
+    }
 }
 
 .footer-content {
     background-color: var(--dark-color);
     padding: 100px 0;
+}
+
+@media screen and (max-width: 767px) {
+    .footer-content {
+        padding: 96px 0;
+    }
 }
 
 .footer-link {
@@ -474,9 +485,20 @@
     margin-right: 0;
 }
 
+
 .footer-box {
     display: flex;
     align-items: baseline;
+}
+
+@media screen and (max-width: 767px) {
+    .footer-box {
+        display: block;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
 }
 
 .footer-text {
@@ -484,9 +506,26 @@
     color: var(--accent-color);
 }
 
-/* .footer-soc-media {
-  margin-left: 120px;
-} */
+@media screen and (max-width: 767px) {
+    .footer-text {
+        margin-right: auto;
+        margin-left: auto;
+        text-align: justify;
+    }
+
+}
+
+.footer-soc-media {
+    margin-left: 120px;
+}
+
+@media screen and (max-width: 767px) {
+    .footer-soc-media {
+        margin-left: 0px;
+    }
+
+
+}
 
 .footer-socmedia-text {
     font-weight: 500;
@@ -503,15 +542,17 @@
     gap: 16px;
 }
 
-.footer-socmedia {
-    width: 40px;
-    height: 40px;
+@media screen and (max-width: 767px) {
+    .footer-container-socmedia {
+        justify-content: center;
+        margin-bottom: 72px;
+    }
 
 }
 
-/* Subscribe form */
-.footer-email-input {
-    margin-left: 80px;
+.footer-socmedia {
+    width: 40px;
+    height: 40px;
 
 }
 
@@ -522,10 +563,6 @@
     letter-spacing: 0.02em;
     color: var(--white-background);
     margin-bottom: 16px;
-}
-
-.footer-email-input-form {
-    display: flex;
 }
 
 .footer-email-input-field {
@@ -541,8 +578,15 @@
     border: 1px solid var(--white-background);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
-    margin-right: 24px;
     transition: 250ms var(--timing-function);
+}
+
+@media screen and (max-width: 767px) {
+    .email-input-field {
+        width: 398px;
+        margin-bottom: 16px;
+    }
+
 }
 
 .email-input-field::placeholder {
@@ -553,7 +597,6 @@
     opacity: 1;
 
 }
-
 
 .subscribe-btn {
     display: flex;
@@ -576,3 +619,9 @@
     cursor: pointer;
 }
 
+@media screen and (max-width: 767px) {
+    .subscribe-btn {
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
