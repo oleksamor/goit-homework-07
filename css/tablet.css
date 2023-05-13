@@ -30,11 +30,7 @@
     }
 
     /* ====== footer ===*/
-    .logo-text {
-        margin-right: 24px;
-        margin-left: 0px;
 
-    }
 
     .footer-box {
         flex-wrap: wrap;
@@ -43,8 +39,6 @@
     .footer-soc-media {
         margin-left: 24px;
     }
-
-
 
     .footer-email-input-form {
         display: flex;
