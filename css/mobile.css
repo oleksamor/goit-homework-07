@@ -101,16 +101,28 @@ body {
     margin-right: auto;
 }
 
-.menu {
+.menu-nav {
     display: flex;
     gap: 40px;
 }
 
 @media screen and (max-width: 767px) {
-    .menu {
+    .menu-nav {
         display: none;
     }
 }
+
+.contacts-menu {
+    display: flex;
+    gap: 40px;
+}
+
+@media screen and (max-width: 767px) {
+    .contacts-menu {
+        display: none;
+    }
+}
+
 
 .menu-link {
     display: block;
@@ -122,6 +134,21 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     transition: color 250ms var(--timing-function);
+}
+
+.contacts-menu-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    transition: color 250ms var(--timing-function);
+}
+
+@media screen and (min-width: 768px) and (max-width: 1157px) {
+    .contacts-menu-link {
+        font-size: 12px;
+        line-height: 1.17;
+        letter-spacing: 0.04em;
+    }
 }
 
 .menu-color {
@@ -281,15 +308,15 @@ body {
             url(../images/hero/hero_mob@1x.jpg);
     }
 
-        @media (min-device-pixel-ratio: 2),
-        (min-resolution: 192dpi),
-        (min-resolution: 2dppx){
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
         .hero {
-                background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-                        rgba(46, 47, 66, 0.7)),
-                    url(../images/hero/hero_mob@2x.jpg);
-            }
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                    rgba(46, 47, 66, 0.7)),
+                url(../images/hero/hero_mob@2x.jpg);
         }
+    }
 }
 
 .hero-title {
