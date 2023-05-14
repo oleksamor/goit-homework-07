@@ -29,7 +29,7 @@
 
   <body>
     <!-- header  -->
-    <!-- <header class="header-line">
+    <header class="header-line">
       <div class="container main-nav">
         <nav class="page-nav">
           <a class="logotype link" href="./index.html">
@@ -83,7 +83,7 @@
           </svg>
         </button>
       </div>
-    </header> -->
+    </header>
 
     <main>
       <!-- <section class="hero">
@@ -161,11 +161,11 @@
 
           <ul class="list action-list">
             <li class="action-item">
-              <img src="./images/img-1-opt.jpg" alt="monitor" width="360" />
+              <img src="./images/img-1-opt.jpg" alt="monitor" width="360" loading="lazy"/>
             </li>
 
             <li class="action-item">
-              <img src="./images/img-2-opt.jpg" alt="mobiles" width="360" />
+              <img src="./images/img-2-opt.jpg" alt="mobiles" width="360" loading="lazy" />
             </li>
 
             <li class="action-item">
@@ -173,13 +173,14 @@
                 src="./images/img-3-opt.jpg"
                 alt="hand with phone"
                 width="360"
+                loading="lazy"
               />
             </li>
           </ul>
         </div>
       </section> -->
 
-      <section class="team">
+      <!-- <section class="team">
         <div class="container">
           <h2 class="item-title">Our Team</h2>
           <ul class="list action-list">
@@ -189,10 +190,11 @@
                   ./images/team/img-1_264.jpg 264w,
                   ./images/team/img-1_528.jpg 528w
                 "
-                sizes="(min-widh: 320) 264px, 100vw"
+                sizes="(min-widh: 1158) 264px,(min-widh: 768) 264px,(min-widh: 428) 264px, 100vw"
                 src="./images/team/img-1_264.jpg"
                 alt="Mark Guerrero Product Designer"
                 width="264"
+                loading="lazy"
               />
 
               <div class="team-item">
@@ -239,10 +241,11 @@
                   ./images/team/img-2_264.jpg 264w,
                   ./images/team/img-2_528.jpg 528w
                 "
-                sizes="(min-widh: 320) 264px, 100vw"
+                sizes="(min-widh: 1158) 264px,(min-widh: 768) 264px,(min-widh: 428) 264px, 100vw"
                 src="./images/team/img-2_264.jpg"
                 alt="Tom Ford Frontend Developer"
                 width="264"
+                loading="lazy"
               />
 
               <div class="team-item">
@@ -290,10 +293,11 @@
                   ./images/team/img-3_264.jpg 264w,
                   ./images/team/img-3_528.jpg 528w
                 "
-                sizes="(min-widh: 320) 264px, 100vw"
+                sizes="(min-widh: 1158) 264px,(min-widh: 768) 264px,(min-widh: 428) 264px, 100vw"
                 src="./images/team/img-3_264.jpg"
                 alt="Camila Garcia Marketing"
                 width="264"
+                loading="lazy"
               />
               <div class="team-item">
                 <h3 class="item-subtitle">Camila Garcia</h3>
@@ -338,10 +342,11 @@
                   ./images/team/img-4_264.jpg 264w,
                   ./images/team/img-4_528.jpg 528w
                 "
-                sizes="(min-widh: 320) 264px, 100vw"
+                sizes="(min-widh: 1158) 264px,(min-widh: 768) 264px,(min-widh: 428) 264px, 100vw"
                 src="./images/team/img-4_264.jpg"
                 alt="Daniel Wilson UI Designer"
                 width="264"
+                loading="lazy"
               />
               <div class="team-item">
                 <h3 class="item-subtitle">Daniel Wilson</h3>
@@ -382,7 +387,7 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
       <!-- <section class="customers">
         <div class="container">
@@ -504,9 +509,9 @@
           </form>
         </div>
       </div>
-    </footer>  -->
+    </footer> -->
     <!-- modal window -->
-    <div class="backdrop is-hidden" data-modal>
+    <!-- <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="modal-btn" type="button" data-modal-close>
           <svg class="modal-icon">
@@ -598,11 +603,27 @@
           <button type="submit" class="modal-send-btn">Send</button>
         </form>
       </div>
-    </div>
+    </div> -->
 
     <!-- mobile menu -->
-    <!-- <div class="menu-container js-menu-container" id="mobile-menu">
-      <button class="modal-btn" type="button" data-modal-close>
+    <div class="menu-container js-menu-container" id="mobile-menu">
+
+    <button class="menu-toggle js-close-menu">
+      
+      <!-- <svg
+          stroke="currentColor"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+            clip-rule="evenodd"
+          ></path>
+        </svg> -->
+
           <svg class="modal-icon">
             <use href="./images/icon.svg#icon-close-modal-window"></use>
           </svg>
@@ -654,13 +675,14 @@
             </li>
           </ul>
     </div>
+
  <script
       defer
       src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
       integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
       crossorigin="anonymous"
     ></script>
-    <script defer src="./js/mobile-menu.js"></script> -->
+    <script defer src="./js/mobile-menu.js"></script>
 
     <script src="./js/modal.js"></script>
   </body>

@@ -55,6 +55,7 @@ body {
     align-items: center;
 }
 
+
 .header-line {
     border-bottom: 1px solid var(--accent-color);
     background: var(--white-background);
@@ -103,6 +104,12 @@ body {
 .menu {
     display: flex;
     gap: 40px;
+}
+
+@media screen and (max-width: 767px) {
+    .menu {
+        display: none;
+    }
 }
 
 .menu-link {
