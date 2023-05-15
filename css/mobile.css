@@ -463,6 +463,17 @@ body {
     margin-bottom: 8px;
 }
 
+@media screen and (max-width: 1157px) {
+    .feature .item-subtitle {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        text-align: center;
+    }
+
+}
+
+
 .item-title {
     font-size: 36px;
     line-height: 1.11;
@@ -500,7 +511,7 @@ body {
 
 @media screen and (min-width: 428px) {
     .container {
-        width: 428px;
+        width: 264px;
     }
 }
 
@@ -511,13 +522,7 @@ body {
 } */
 
 /* feature */
-@media screen and (max-width: 767px) {
-    .item-subtitle {
-        font-size: 36px;
-        line-height: 1.11;
-        text-align: center;
-    }
-}
+
 
 
 /* team */
@@ -533,16 +538,14 @@ body {
     background-color: var(--white-background);
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-        0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-    width: calc((100%-24px) / 2);
-
+        0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08)
 }
 
-/* @media screen and (max-width: 767px) {
+@media screen and (min-width: 768px) {
     .team-card {
-        width: calc((100%-24px) / 2);
+        width: calc((100%- 24px) / 2);
     }
-} */
+}
 
 .team-item {
     padding: 32px 16px;
@@ -626,15 +629,16 @@ body {
     gap: 72px 24px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 767px) {
     .customers-list {
         flex-wrap: wrap;
+        gap: 72px 16px;
     }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 767px) {
     .customers-item {
-        width: calc((100% - 1 * 24px) / 2);
+        width: calc((100% - 16px) / 2);
     }
 }
 
@@ -804,7 +808,7 @@ body {
 
 @media screen and (max-width: 767px) {
     .email-input-field {
-        width: 398px;
+        width: 100%;
         margin-bottom: 16px;
     }
 

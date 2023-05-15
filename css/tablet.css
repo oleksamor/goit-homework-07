@@ -25,11 +25,11 @@
         padding: 96px 0;
     }
 
-    .item-subtitle {
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 1.11;
-    }
+/* .item-subtitle {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+} */
 
     .feature-item {
         width: calc((100% - 1 * 24px) / 2);
