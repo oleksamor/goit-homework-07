@@ -646,7 +646,7 @@ body {
 
 .customers-list {
     display: flex;
-    gap: 72px 24px; 
+    gap: 72px 24px;
     flex-wrap: wrap;
 }
 
@@ -676,7 +676,7 @@ body {
 
 @media screen and (max-width: 428px) {
     .customers-link {
-        width: 190px;
+        width: 100%;
     }
 }
 
