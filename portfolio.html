@@ -20,40 +20,39 @@
     />
 
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/mobile.css" />
+    <link rel="stylesheet" href="css/tablet.css" />
+    <link rel="stylesheet" href="css/desktop.css" />
   </head>
 
   <body>
     <header class="header-line">
       <div class="container main-nav">
-        <!-- logo -->
         <nav class="page-nav">
-          <!-- logo -->
           <a class="logotype link" href="./index.html">
             WEB<span class="studio-color">Studio</span>
           </a>
 
-          <ul class="menu list">
+          <ul class="menu-nav list">
             <li class="header-item">
-              <a class="link menu-link" href="./index.html">Studio</a>
+              <a class="link menu-link menu-color current" href="./index.html"
+                >Studio
+              </a>
             </li>
             <li class="header-item">
-              <a
-                class="link menu-link menu-color current"
-                href="./portfolio.html"
-                >Portfolio</a
-              >
+              <a class="link menu-link" href="./portfolio.html">Portfolio </a>
             </li>
             <li class="header-item">
               <a class="link menu-link" href="">Contacts</a>
             </li>
           </ul>
         </nav>
-        <!-- tel mail -->
+
         <address class="phone-mail">
-          <ul class="menu list">
+          <ul class="contacts-menu list">
             <li class="header-item">
               <a
-                class="link menu-link contacts-color"
+                class="link contacts-menu-link contacts-color"
                 href="mailto:info@devstudio.com"
               >
                 info@devstudio.com</a
@@ -61,12 +60,24 @@
             </li>
 
             <li class="header-item">
-              <a class="link menu-link contacts-color" href="tel:+110001111111"
+              <a
+                class="link contacts-menu-link contacts-color"
+                href="tel:+110001111111"
                 >+11 (000) 111-11-11</a
               >
             </li>
           </ul>
         </address>
+
+        <button
+          class="menu-toggle js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg width="32" height="22" stroke="currentColor">
+            <use href="./images/icon.svg#icon-hamburger"></use>
+          </svg>
+        </button>
       </div>
     </header>
 
@@ -313,12 +324,11 @@
     <!-- footer -->
     <footer class="footer-content menu">
       <div class="container footer-box">
-        <!-- logo -->
         <div class="logo-text">
           <a class="logotype link footer-link" href="./index.html">
             WEB<span class="studio-color-footer">Studio</span>
           </a>
-          <!-- Increase -->
+
           <p class="footer-text">
             Increase the flow of customers and sales for your business with
             digital marketing & growth solutions.
@@ -357,10 +367,9 @@
             </li>
           </ul>
         </div>
-        <!-- Subscribe form -->
+
         <div class="footer-email-input">
           <p class="footer-email-input-txt">Subscribe</p>
-
           <form class="footer-email-input-form" name="subscribe_form">
             <label class="footer-email-input-field"></label>
             <input
