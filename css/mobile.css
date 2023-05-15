@@ -91,6 +91,10 @@ body {
     text-decoration: none;
 }
 
+.link-color {
+    color: var(--primary-brand-color);
+}
+
 .phone-mail {
     font-style: normal;
 }
@@ -175,8 +179,8 @@ body {
 .container {
     min-width: 320px;
     width: 100%;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
 
@@ -214,6 +218,7 @@ body {
     left: 0;
     display: flex;
     flex-direction: column;
+    margin-bottom: auto;
     width: 100vw;
     height: 100vh;
     padding: 32px;
@@ -375,7 +380,7 @@ body {
 
 .item {
     display: flex;
-    gap: 24px;
+    gap: 72px 24px;
     flex-wrap: wrap;
 }
 
@@ -433,8 +438,7 @@ body {
 
 .action-list {
     display: flex;
-    justify-content: center;
-    gap: 24px;
+    gap: 72px 24px;
 }
 
 @media screen and (max-width: 1157px) {
@@ -464,11 +468,8 @@ body {
     }
 }
 
-/**
-  |============================
-  | team
-  |============================
-*/
+
+/* team */
 
 .team {
     text-align: center;
@@ -482,14 +483,15 @@ body {
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    width: calc((100%-24px) / 2);
 
 }
 
-@media screen and (max-width: 767px) {
+/* @media screen and (max-width: 767px) {
     .team-card {
-        width: 100%;
+        width: calc((100%-24px) / 2);
     }
-}
+} */
 
 .team-item {
     padding: 32px 16px;
@@ -570,18 +572,16 @@ body {
 
 .customers-list {
     display: flex;
-    gap: 24px;
+    gap: 72px 24px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 768px) {
     .customers-list {
         flex-wrap: wrap;
-        row-gap: 72px;
-        column-gap: 16px;
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 768px) {
     .customers-item {
         width: calc((100% - 1 * 24px) / 2);
     }
@@ -841,6 +841,9 @@ body {
     opacity: 1;
     transition: transform 250ms var(--timing-function), opacity 250ms var(--timing-function);
 }
+@media screen and () {
+    
+}
 
 .modal-btn {
     display: flex;
@@ -1045,4 +1048,16 @@ body {
 .modal-send-btn:hover,
 .modal-send-btn:focus {
     background-color: var(--pressed-state-color);
+}
+
+@media screen and (orientation:landscape) {
+    .backdrop {
+        overflow: auto;
+    }
+
+    .modal {
+        top: 0;
+        transform: translate(-50%, 0%);
+    }
+
 }

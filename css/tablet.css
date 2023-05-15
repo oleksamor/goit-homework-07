@@ -1,13 +1,11 @@
 @media screen and (min-width: 768px) {
     .container {
-        width: 768px;
-
+        width: 582px;
     }
 
     /* hero */
     .hero {
         max-width: 768px;
-        height: 436px;
     }
 
     .hero-title {
@@ -15,15 +13,22 @@
         line-height: 1.07;
         max-width: 496px;
     }
-@media screen and (min-width: 768px) and (max-width: 1157px) {
-    .contacts-menu {
-        display: block;
+
+    @media screen and (min-width: 768px) and (max-width: 1157px) {
+        .contacts-menu {
+            display: block;
+        }
     }
-}
 
     /* feature */
     .feature {
         padding: 96px 0;
+    }
+
+    .item-subtitle {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
     }
 
     .feature-item {

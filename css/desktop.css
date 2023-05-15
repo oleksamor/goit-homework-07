@@ -1,9 +1,9 @@
 @media screen and (min-width: 1158px) {
     .container {
-        width: 100%;
-       
+        width: 1158px;
+
     }
-  
+
     /* hero */
     .hero {
         padding: 188px 0;
@@ -12,7 +12,7 @@
 
     }
 
-   
+
     /**
       |============================
       | Feature
