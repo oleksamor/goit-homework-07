@@ -219,14 +219,15 @@ body {
     left: 0;
     display: flex;
     flex-direction: column;
-    margin-bottom: auto;
     width: 100vw;
     height: 100vh;
-    padding: 32px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    padding-left: 40px;
     background: var(--white-background);
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
     z-index: 999;
-
+    overflow-y: auto;
     transform: translateX(100%);
     transition: transform 250ms ease-in-out;
 }
@@ -243,24 +244,22 @@ body {
 }
 
 .mobile-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
     padding: 0;
     margin: 0;
     list-style: none;
-    margin-top: 48px;
     margin-bottom: auto;
 }
 
-.mobile-menu .link {
-    display: block;
-    padding: 10px;
+.mobile-menu-link {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11px;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--dark-color);
-    text-decoration: none;
-    margin-bottom: 40px;
 }
 
 .mobile-menu-link.current {
