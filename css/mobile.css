@@ -528,6 +528,22 @@ body {
     gap: 24px;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1157px) {
+    .action-list {
+        width: 582px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1157px) {
+    .customers-list {
+        width: 582px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
 @media screen and (max-width: 1157px) {
     .action-list {
         flex-wrap: wrap;
@@ -739,6 +755,7 @@ body {
     }
 
 }
+
 
 .footer-text {
     max-width: 264px;
