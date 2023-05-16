@@ -559,7 +559,7 @@ body {
 }
 
 .action-item {
-    width: calc(100% - 48px) / 3;
+    width: calc((100% - 48px) / 3);
 }
 
 @media screen and (min-width: 428px) {
