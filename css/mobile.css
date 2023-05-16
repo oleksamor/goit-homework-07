@@ -566,8 +566,6 @@ body {
     .container {
         width: 428px;
     }
-
-
 }
 
 /* team */
@@ -701,8 +699,6 @@ body {
 }
 
 .svg-link {
-    /* width: 104px;
-  height: 56px; */
     fill: currentColor;
     transition: fill 250ms var(--timing-function);
 }
